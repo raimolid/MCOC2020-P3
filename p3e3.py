@@ -8,7 +8,7 @@ x=linspace(0,L,n+1)
 
 # Arreglo con la solución 
 dt=1.
-Nt=5000
+Nt=50000
 tt=arange(0,Nt,dt)
 u_k=zeros((n+1))
 u_km1=zeros((n+1))
