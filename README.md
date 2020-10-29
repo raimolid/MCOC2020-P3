@@ -66,7 +66,7 @@ for k in range(Nt-1):
     Nskip=3    
     if k % Nplot == 0:     #Graficar cada 1000 pasos
         plot(x,u_k[:])
-        # plot(dt,u_k[:])
+        
     
     if k%(Nskip*Nplot)==0:
         text(x[0],u_k[0],f"{t/3600:.1f}",
