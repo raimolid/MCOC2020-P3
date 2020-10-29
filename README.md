@@ -6,7 +6,7 @@ Para la verificación del programa utilizado para el problema 1-D, se replicaron
 
 En el programa se usaron los siguientes parámetros utilizados por Contreras:
 + ρ  = 2476 (kg/m3)
-+ κ  = 0.001495 (kW/m C)
++ κ  = 0.001495 (kW/m hr C)
 + Cp = 1.023 (kJ/kg C)
 + α  = κ/(Cp ρ) (m2/hr)
 
