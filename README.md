@@ -22,8 +22,12 @@ elemetos para distintos intervalos de tiempo.
 
 ## Caso de estudio: Discretización de la condición de borde natural en extremo izquierdo
 
-*
-*
+* Considerando lo visto en el video y con las condicones de borde dadas como :
+* CB : du/dx(t,0) = 5    u(t,L) = 20
+* CI : u(0,x) = 20
+
+* Se siguio a hacer la siguiente programación:
+
 ```
  from matplotlib.pylab import *
 
