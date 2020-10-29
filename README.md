@@ -2,7 +2,7 @@
 
 # Entrega 3 - Réplica de la sección 4.5 de la tésis de Alvaro Contreras:
 
-## Modelación de la difución y generación de calor en hormigones masivos por medio de elementos finitos (2020)
+## Modelación de la difución y generación de calor en hormigones masivos por medio de elementos finitos (Contreras, 2020)
 ## Sección 4.5 - Convergencia y validación
 
 * En esta parte, se procedió a verificar el modelo 1-D usando los mismos parámetros usados por Álvaro Contreras y se analizo la temperatura en 3 distintos nodos (puntos en x) del
