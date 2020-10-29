@@ -14,9 +14,9 @@ elemetos para distintos intervalos de tiempo.
 
 * Figura 4.7. Evolución térmica en diferentes dt.
 
-![alt text]()
-![alt text]()
-![alt text]()
+![alt text](https://github.com/raimolid/MCOC2020-P3/blob/main/Mallas_x104.png)
+![alt text](https://github.com/raimolid/MCOC2020-P3/blob/main/Mallas_x208.png)
+![alt text](https://github.com/raimolid/MCOC2020-P3/blob/main/Mallas_x416.png)
 
 * Figura 4.7. Evolución térmica en diferentes Mallas
 
