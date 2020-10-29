@@ -21,4 +21,5 @@ Luego, se replicó el segundo caso de estudio, donde se analizó la convergencia
 (Gráficos)
 
 Como se puede ver en los resultados obtenidos, el error es mayor para las mallas 10, 20 y 40, mientras que para las mallas 60 y 100 el error disminuye, como se puede observar en la siguiente figura.
+
 (Gráfico con zoom)
