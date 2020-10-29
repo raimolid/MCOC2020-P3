@@ -80,6 +80,10 @@ title('k={} t={} s'.format(k,k*dt))
 xlabel('Distancia, $x$ (m)')
 ylabel('Temperature, $T$ (°C)')  
 show()
-
     
 ```
+* El grafico que nos arrojo es el siguiente:
+
+![alt text](https://github.com/jmbarriga1/MCOC2020-P3/blob/main/Figure%20caso%202.png)
+
+* Se puede apreciar que cada 1000 pasos hasta llegar a 50.000 pasos a un intervalo de 2 segundos la grafica si converge a la temperatura de 20 °C.
