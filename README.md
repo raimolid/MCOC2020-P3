@@ -35,8 +35,14 @@ Como se puede ver en los resultados obtenidos, el error es mayor para las mallas
 
 ## Caso de estudio: Discretización de la condición de borde natural en extremo izquierdo
 
-*
-*
+* Considerando lo visto en el video y con las condicones de borde dadas como :
+* CB : du/dx(t,0) = 5    
+        u(t,L) = 20
+       
+* CI : u(0,x) = 20
+
+* Se siguio a hacer la siguiente programación:
+
 ```
  from matplotlib.pylab import *
 
@@ -96,3 +102,11 @@ show()
 
     
 ```
+
+* El grafico que nos arrojo es el siguiente:
+
+![alt text](https://github.com/raimolid/MCOC2020-P3/blob/main/x416.png)
+
+* Se puede apreciar que cada 1.000 pasos hasta llegar a 50.000 pasos a un intervalo de 2 segundos la grafica si converge a la temperatura de 20 °C.
+
+* En el caso estudiado se considero un gradiente termico de 5 (°C/m) el cual convergio a 20°C. Por lo tanto en los casos que creemos que se puede aplicar una condición de borde natural son cuando la fuente termica se encuentra en el interior del dominio.
