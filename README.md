@@ -105,7 +105,7 @@ show()
 
 * El grafico que nos arrojo es el siguiente:
 
-![alt text](https://github.com/raimolid/MCOC2020-P3/blob/main/x416.png)
+![alt text](https://github.com/raimolid/MCOC2020-P3/blob/main/caso_parte2.png)
 
 * Se puede apreciar que cada 1.000 pasos hasta llegar a 50.000 pasos a un intervalo de 2 segundos la grafica si converge a la temperatura de 20 °C.
 
