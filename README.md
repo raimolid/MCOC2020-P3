@@ -5,20 +5,33 @@
 ## Modelación de la difución y generación de calor en hormigones masivos por medio de elementos finitos (Contreras, 2020)
 ## Sección 4.5 - Convergencia y validación
 
-* En esta parte, se procedió a verificar el modelo 1-D usando los mismos parámetros usados por Álvaro Contreras y se analizo la temperatura en 3 distintos nodos (puntos en x) del
-elemetos para distintos intervalos de tiempo.
+* Para la verificación del programa utilizado para el problema 1-D, se replicaron los resultados de la sección 4.5 de la memoria de Contreras. Para esto se comparó la solución analítica, admitida por series de Fourier, con los resultados del programa.
+
+En el programa se usaron los siguientes parámetros utilizados por Contreras:
++ ρ  = 2476 (kg/m3)
++ κ  = 0.001495 (kW/m hr C)
++ Cp = 1.023 (kJ/kg C)
++ α  = κ/(Cp ρ) (m2/hr)
+
+Primero se estudió la convergencia del método utilizando una malla de 20 elementos, con intervalos de Δt=1(s), Δt=5(s), Δt=10(s), Δt=50(s) y Δt=100(s).
 
 ![alt text](https://github.com/raimolid/MCOC2020-P3/blob/main/x104.png)
 ![alt text](https://github.com/raimolid/MCOC2020-P3/blob/main/x208.png)
 ![alt text](https://github.com/raimolid/MCOC2020-P3/blob/main/x416.png)
 
-* Figura 4.7. Evolución térmica en diferentes dt.
+Como se puede observar en los resultados replicados, el método converge a la solución analítica sin importar el intervalo utilizado.
+
+Luego, se replicó el segundo caso de estudio, donde se analizó la convergencia utilizando distintas mallas y un Δt=60(s).
 
 ![alt text](https://github.com/raimolid/MCOC2020-P3/blob/main/Mallas_x104.png)
 ![alt text](https://github.com/raimolid/MCOC2020-P3/blob/main/Mallas_x208.png)
 ![alt text](https://github.com/raimolid/MCOC2020-P3/blob/main/Mallas_x416.png)
 
-* Figura 4.7. Evolución térmica en diferentes Mallas
+Como se puede ver en los resultados obtenidos, el error es mayor para las mallas 10, 20 y 40, mientras que para las mallas 60 y 100 el error disminuye, como se puede observar en la siguiente figura.
+
+![alt text](https://github.com/raimolid/MCOC2020-P3/blob/main/zoom.png)
+
+
 
 ## Caso de estudio: Discretización de la condición de borde natural en extremo izquierdo
 
